@@ -1,0 +1,17 @@
+{
+  "name": "proofpay-contracts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "node scripts/compile.js",
+    "test": "node scripts/compile.js && node --test test/*.test.js",
+    "deploy": "node scripts/compile.js && node scripts/deploy.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.0.2",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "solc": "0.8.24"
+  },
+  "devDependencies": { "ganache": "^7.9.2" }
+}

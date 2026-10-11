@@ -1,0 +1,29 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.local.example
+*.pem
+*.key
+*.p12
+
+# Dependencies and generated application output
+node_modules/
+.next/
+dist/
+build/
+coverage/
+
+# Python caches and environments
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+
+# Contract build output
+contracts/artifacts/
+
+# Local logs and editor/OS files
+*.log
+.DS_Store
+Thumbs.db
